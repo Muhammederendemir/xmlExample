@@ -1,0 +1,40 @@
+
+                      =====   XML (Extensible Markum Language)  ======
+
+    XML, interneti kullanarak veri alışverişi yapan sistemler ve platformlar arasındaki veri iletişimini
+    standart hale getirmek için tasarlanan bir işaretleme dilidir. İngilizcesi eXtensible Markum Language
+    olan XML, Türkçeye Genişletilebilir İşaretleme Dili olarak girmiştir. XML’in çıkış tarihi Microsoft’un
+    .Net teknolojisinin çıkış tarihiyle kesiştiği için bir çok kişi tarafından Microsoft tabanlı bir teknoloji
+    olarak bilinmektedir. Fakat sanılanın aksine bu teknoloji W3C (World Wide Web Consortium) tarafından
+    tasarlanan bir veri iletişim standardıdır.
+
+
+                       -----  XML’ e neden ihtiyaç duyulmuştur? -----
+
+    XML standardı ortaya çıkmadan önce, bir yazılımda veya veritabanında kullanılan verilerin başka bir platforma
+    taşınması sırasında birçok problemle karşılaşılıyordu. İletilen bilgi kümesinde ki veri yapısının, diğer sistemdeki
+    yapıya uygun hale getirilmesi işlemi uzun zaman alıyor ve karmaşık süreçler gerektiriyordu. Ayrıca tasarlanan bu sistem
+    ve fonksiyonların işlem sonucunda başka alanlarda kullanılması mümkün olmuyordu. Bu durumun önlenmesi amacıyla standart
+    bir veri iletim teknolojisinin geliştirilmesi gerekliliği üzerine XML dili ortaya çıkmıştır.
+
+
+                       -----  XML’in temel özellikleri nelerdir? -----
+
+     XML, HTML gibi hiyerarşik bir işaretleme dilidir. Ancak XML’de kullanılan etiketler, HTML’den farklı olarak kişiler
+     tarafından belirlenir. İsimlendirme konusunda insiyatifi bize bırakan XML, diğer konularda katı ve kesin kurallara sahiptir.
+
+
+     Bir XML dosyası oluşturulurken aşağıdaki kurallara uyulması gerekir.
+
+     - XML etiketleri hiyerarşik bir yapıda oluşturulmalıdır.
+     - Açılan etiketler mutlaka kapatılmalıdır.
+     - XML’ de etiketlere nitelik atanabilir.
+     - Xml Case Sensitive bir dildir.
+
+
+                       -----  XML dilini nerelerde kullanabilirim? ----
+
+     XML dili günümüzde veri iletimiyle alakalı her alanda sıklıkla kullanılmaktadır. Günümüzde web siteleri için site haritası
+     oluşturma, veritabanlarının aktarılması, yazılım paketleri içerisindeki bağımlılıkların tanımlanması, finansal verilerin
+     iletimi, dosya sistemlerinin oluşturulması, bilimsel içeriklerin depolanması gibi yüzlerce alanda XML teknolojisi
+     kullanılmaktadır.
