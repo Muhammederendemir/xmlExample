@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="lessons.xsl" ?>
+<lessons>
+
+    <title>Lessons And Teachers</title>
+
+    <teacher number="1">
+        <name >Hasan Hüseyin BAS</name>
+        <lesson lessonNo="1"> Algoritma </lesson>
+        <lesson lessonNo="2"> mikro</lesson>
+        <lesson lessonNo="3"> veri yapilari </lesson>
+        <lesson lessonNo="4"> C </lesson>
+        <lesson lessonNo="5"> .net </lesson>
+    </teacher>
+
+    <teacher number="2">
+        <name >Serap Özen</name>
+        <lesson lessonNo="6"> Görüntü isleme </lesson>
+        <lesson lessonNo="7"> Analiz</lesson>
+        <lesson lessonNo="8"> Tasarim </lesson>
+        <lesson lessonNo="9"> elektronik </lesson>
+        <lesson lessonNo="10"> donanim </lesson>
+    </teacher>
+
+    <teacher number="3">
+        <name >Muhammed Eren Demir</name>
+        <lesson lessonNo="11"> java </lesson>
+        <lesson lessonNo="12"> matematik</lesson>
+        <lesson lessonNo="8"> Tasarim </lesson>
+        <lesson lessonNo="9"> elektronik </lesson>
+        <lesson lessonNo="10"> donanim </lesson>
+    </teacher>
+
+</lessons>
