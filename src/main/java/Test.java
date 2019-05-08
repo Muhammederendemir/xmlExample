@@ -1,11 +1,13 @@
-import java.io.IOException;
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+import java.io.IOException;
+import java.net.URL;
 
 public class Test {
 
@@ -14,8 +16,13 @@ public class Test {
         Document document = null;
         try {
             //XML dosyasının yolunu gösterdim.
-            String path = "C:\\Users\\Win10\\Desktop\\github\\XML-Example\\src\\main\\resources\\xmlExample.xml";
+
+            URL url = Test.class.getResource("xmlExample.xml");
+            String path = url.getPath();
             document = getDocument(path);
+
+            //  String path = "C:\\Users\\Win10\\Desktop\\github\\XML-Example\\src\\main\\resources\\xmlExample.xml";
+            // document = getDocument(path);
 
         } catch (ParserConfigurationException | SAXException | IOException ex) {
             System.out.println(ex);
