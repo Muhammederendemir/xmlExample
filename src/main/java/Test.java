@@ -46,7 +46,7 @@ public class Test {
 
             for (int j = 0; j < lessonList.getLength(); j++) {
                 Element option = (Element) lessonList.item(j);
-                String lessonNo=option.getAttribute("lessonNo");    
+                String lessonNo=option.getAttribute("lessonNo");
                 String lesson=option.getTextContent();
                 System.out.println("Lesson No: " + lessonNo+ " -" + lesson);
                 //ders numarsı ve ısımlerı yazılıyor
